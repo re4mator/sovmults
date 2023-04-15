@@ -1,14 +1,3 @@
-@media screen and (max-width: 768px) {
-  .XXX {
-    display: block;
-  }
-}
-.hidesimbol {
-   position: absolute;
-   top: -99999px;
-   left: -99999px;
-}
-
 @font-face {
     font-family: 'WellwaitFree';
     src: url('./fonts/WellwaitFree-Regular.eot');
@@ -793,7 +782,7 @@ text-decoration: none;
 }
 
 .dk {
-    font-family: 'Marvin';
+    font-family: 'Marvin', sans-serif;
 	font-style: normal;
 	font-size: 1.2em;
 	color: #0310FD;
