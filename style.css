@@ -127,20 +127,23 @@ caption {
 .shadows:hover {
     text-shadow: 16px 6px 15px #ced0d3;
 }
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
  .shadows {
    display: none;
 }
 }
-
-@media screen and (min-width: 784px) {
+.shadows-mobile {
+	display: none;
+}
+@media only screen and (max-width: 460px) {
 .shadows-mobile {
 	display: none;
 }
 }
-@media screen and (max-width: 784px) {
+@media only screen and (min-width: 480px) and (max-width: 768px) {
 .shadows-mobile {
-    text-transform: uppercase;
+    display: inline-block;
+	text-transform: uppercase;
     text-shadow: 15px 5px 20px #ced0d3;
     color: white;
     letter-spacing: -0.05em;
