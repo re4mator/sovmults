@@ -48,16 +48,10 @@ html {
 }
 
 body {
-  /*font-family: system-ui, -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;*/
   font-family: 'Oswald', sans-serif;
   color: rgba(0, 0, 0, 0.87);
-  /*background-color: #fff8dc;*/
   background-image: url('./img/bg.png');
-  background: #f8b500;
-/*background-image: url("https://transparenttextures.com/patterns/stardust.png");
-  background-image: url("https://transparenttextures.com/patterns/concrete-wall.png");
-  background-image: url("https://transparenttextures.com/patterns/low-contrast-linen.png");
-  background-image: url("https://transparenttextures.com/patterns/otis-redding.png");*/
+  background-color: #f8b500;
 }
 a {
   color: #191970;
