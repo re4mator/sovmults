@@ -37,6 +37,8 @@
 </head>
 <body>
 <div class="container">
+	
+<div id="top" class="elevator"></div>
 
 <div class="box-header" id="show-hide-header">
 <div class="shadows sleep"><a href="https://re4mator.github.io/sovmults/" class="logolink"><span>r</span><span>e</span><span class="sleep__letters"><sup>4</sup></span><span>m</span><span>a</span><span>t</span><span>o</span><span>r</span><span style="color: #f8b500;">.</span></a></div>
@@ -3827,6 +3829,8 @@
 
 <div class="footer"><img class="footer-img" src="./img/jungle.png" alt=""/></div>
 
+<div id="bottom" class="elevator"></div>
+
 </div>
 
 <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
@@ -3872,58 +3876,6 @@ for (var button of buttons) {
    });
 };
 </script>
-
-<!-- ПОИСК ПО ТАБЛИЦЕ (1) ИЩЕТ В TR и TD -->
-<!--
-<script>
-$(document).ready(function(){
-  $("#searchname").on("keyup", function() {
-    var  value = $(this).val().toLowerCase();
-    $("#table tr.cat").filter(function() {
-       $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-    });
-  });
-});
-</script>
--->
-
-<!-- ПОИСК ПО ТАБЛИЦЕ (2) ИЩЕТ В TR -->
-<!-- 
-<script>
-$("#searchname").keyup(function(){
-            _this = this;
-            let count = 0;
-            $.each($('#table tbody tr.cat').find('th'), function() {
-	//		$.each($('#table tbody tr.cat').find('td:eq(1)'), function() {   // ПОИСК ПО ВТОРОМУ СТОЛБЦУ  https://xn--d1acnqm.xn--j1amh/%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B8/%D0%B6%D0%B8%D0%B2%D0%BE%D0%B9-%D0%BF%D0%BE%D0%B8%D1%81%D0%BA-%D0%BF%D0%BE-%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D0%B5-%D1%81-%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E-jquery
-                if ($(this).text().toLowerCase().indexOf($(_this).val().toLowerCase()) === -1) {
-                    $(this).parent().hide();
-                } else {
-                    count = count + 1;
-                    $(this).parent().show();                
-                }
-            });
-            if (count == 0 && !$('#table tbody').find('tr.no_result').length) {
-                $('#table tbody').append('<tr class="no_result"><td colspan="8" style="color: #900; font-weight: 700; font-size: 1.5em; padding: 10px 5px; text-align: center">Ничего не найдено!</td></tr>');
-            } else if (count > 0) {
-                $('tr.no_result').remove();
-            }﻿
-        });
-</script>
--->
-
-<!-- ПОИСК ПО ТАБЛИЦЕ (3) -->
-<!--
-<script>
-$(document).ready(function(){
-  $("#searchname").on("keyup", function() {
-    var value = $(this).val().toLowerCase();
-    $("#table tbody tr").filter(function() {
-      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-    });
-  });
-});
-</script>
- -->
 
 <!-- СОХРАНЕНИЕ ЗЕБРЫ ПРИ ФИЛЬТРАЦИИ -->
 <script>
@@ -4010,7 +3962,33 @@ $(window).scroll(function() {
 adjustWidth();
 </script>
 
-
+<!-- jQuery Elevator Buttons Panel -->
+<script src="./jquery.elevator.min.js"></script>
+<script>
+$.elevator({
+show_top: true,
+show_bottom: true,
+item_top: null,
+item_bottom: null,
+align: 'bottom right',
+navigation: [],
+navigation_text: false,
+margin: 100,
+speed: 1000,
+shape: 'circle',            
+glass: false,
+tooltips: false,
+onBeforeMove: function(){},
+onAfterMove: function(){},
+onBeforeGoTop: function(){},
+onAfterGoTop: function(){},
+onBeforeGoBottom: function(){},
+onAfterGoBottom: function(){},
+onBeforeGoSection: function(){},
+onAfterGoSection: function(){}
+});
+</script>
+<!-- END jQuery Elevator Buttons Panel -->
 
 
 </body>
