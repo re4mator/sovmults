@@ -439,20 +439,48 @@ background: linear-gradient(45deg, rgb(229, 73, 17) 45%, rgb(240, 86, 2));
     color: #F5F5F5;
 	text-shadow: 0 1px 2px rgba(0,0,0,.25);
 }
-.responsive-table tbody th[data-type=devidel] {
-  background-image: url("./img/devochka-i-delfin-bg.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+
 .responsive-table tbody th[data-type=budet] {
   background-image: url("./img/budet-laskovy-dozhd-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
-.responsive-table tbody th[data-type=malchish] {
-  background-image: url("./img/skazha-o-malchishe-kibalchishe-bg.png");
+.responsive-table tbody th[data-type=devidel] {
+  background-image: url("./img/devochka-i-delfin-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
+}
+.responsive-table tbody th[data-type=lolo] {
+  background-image: url("./img/lolo-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.responsive-table tbody th[data-type=malchish] {
+  background-image: url("./img/skazka-o-malchishe-kibalchishe-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.responsive-table tbody th[data-type=pps] {
+  background-image: url("./img/padal-proshlogodniy-sneg-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.responsive-table tbody th[data-type=polygon] {
+  background-image: url("./img/polygon-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.responsive-table tbody th[data-type=umka] {
+  background-image: url("./img/umka-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.blue {
+  background-color: rgba(135, 206, 235,.60);
+}
+.blue a.preview.dir:hover {
+  color: #FF4500;
 }
 .red {
   background-color: #A10E20;
@@ -461,6 +489,9 @@ background: linear-gradient(45deg, rgb(229, 73, 17) 45%, rgb(240, 86, 2));
 }
 .red a.preview.dir {
   color: #FFFFFF;
+}
+.red a.preview.dir:hover {
+  color: #FF4500;
 }
 
 @media (min-width: 30em) {
@@ -685,6 +716,27 @@ text-shadow:
 		-1px  1px 2px #EDE3C4,
 		 1px  1px 2px #EDE3C4;
 }
+#lolotitle {
+color: #FF0000;
+font-size: 1.2em;
+text-shadow:
+        -0   -1px 2px #FFFFFF,
+		 0   -1px 2px #FFFFFF,
+		-0    1px 2px #FFFFFF,
+		 0    1px 2px #FFFFFF,
+		-1px -0   2px #FFFFFF,
+		 1px -0   2px #FFFFFF,
+		-1px  0   2px #FFFFFF,
+		 1px  0   2px #FFFFFF,
+		-1px -1px 2px #FFFFFF,
+		 1px -1px 2px #FFFFFF,
+		-1px  1px 2px #FFFFFF,
+		 1px  1px 2px #FFFFFF,
+		-1px -1px 2px #FFFFFF,
+		 1px -1px 2px #FFFFFF,
+		-1px  1px 2px #FFFFFF,
+		 1px  1px 2px #FFFFFF;
+}
 #mal-kib {
 color: #FFFFFF;
 font-size: 1.2em;
@@ -705,6 +757,69 @@ text-shadow:
 		 1px -1px 2px #A10E20,
 		-1px  1px 2px #A10E20,
 		 1px  1px 2px #A10E20;
+}
+#ppstitle {
+color: #FF0000;
+font-size: 1.2em;
+text-shadow:
+        -0   -1px 2px #FFFFFF,
+		 0   -1px 2px #FFFFFF,
+		-0    1px 2px #FFFFFF,
+		 0    1px 2px #FFFFFF,
+		-1px -0   2px #FFFFFF,
+		 1px -0   2px #FFFFFF,
+		-1px  0   2px #FFFFFF,
+		 1px  0   2px #FFFFFF,
+		-1px -1px 2px #FFFFFF,
+		 1px -1px 2px #FFFFFF,
+		-1px  1px 2px #FFFFFF,
+		 1px  1px 2px #FFFFFF,
+		-1px -1px 2px #FFFFFF,
+		 1px -1px 2px #FFFFFF,
+		-1px  1px 2px #FFFFFF,
+		 1px  1px 2px #FFFFFF;
+}
+#polygontitle {
+color: #FF0000;
+font-size: 1.2em;
+text-shadow:
+        -0   -1px 2px #FFFFFF,
+		 0   -1px 2px #FFFFFF,
+		-0    1px 2px #FFFFFF,
+		 0    1px 2px #FFFFFF,
+		-1px -0   2px #FFFFFF,
+		 1px -0   2px #FFFFFF,
+		-1px  0   2px #FFFFFF,
+		 1px  0   2px #FFFFFF,
+		-1px -1px 2px #FFFFFF,
+		 1px -1px 2px #FFFFFF,
+		-1px  1px 2px #FFFFFF,
+		 1px  1px 2px #FFFFFF,
+		-1px -1px 2px #FFFFFF,
+		 1px -1px 2px #FFFFFF,
+		-1px  1px 2px #FFFFFF,
+		 1px  1px 2px #FFFFFF;
+}
+#umkatitle {
+color: #FF0000;
+font-size: 1.2em;
+text-shadow:
+        -0   -1px 2px #FFFFFF,
+		 0   -1px 2px #FFFFFF,
+		-0    1px 2px #FFFFFF,
+		 0    1px 2px #FFFFFF,
+		-1px -0   2px #FFFFFF,
+		 1px -0   2px #FFFFFF,
+		-1px  0   2px #FFFFFF,
+		 1px  0   2px #FFFFFF,
+		-1px -1px 2px #FFFFFF,
+		 1px -1px 2px #FFFFFF,
+		-1px  1px 2px #FFFFFF,
+		 1px  1px 2px #FFFFFF,
+		-1px -1px 2px #FFFFFF,
+		 1px -1px 2px #FFFFFF,
+		-1px  1px 2px #FFFFFF,
+		 1px  1px 2px #FFFFFF;
 }
 
 .small-font {
