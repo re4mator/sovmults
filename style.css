@@ -450,6 +450,11 @@ background: linear-gradient(45deg, rgb(229, 73, 17) 45%, rgb(240, 86, 2));
   background-size: cover;
   background-repeat: no-repeat;
 }
+.responsive-table tbody th[data-type=kng] {
+  background-image: url("./img/kng.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .responsive-table tbody th[data-type=lolo] {
   background-image: url("./img/lolo-bg.png");
   background-size: cover;
@@ -715,6 +720,11 @@ text-shadow:
 		 1px -1px 2px #EDE3C4,
 		-1px  1px 2px #EDE3C4,
 		 1px  1px 2px #EDE3C4;
+}
+#kngtitle {
+color: #FFFFFF;
+font-size: 1.2em;
+text-shadow: 0 1px 2px rgba(0,0,0,.25);
 }
 #lolotitle {
 color: #FF0000;
