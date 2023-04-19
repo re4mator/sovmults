@@ -872,8 +872,39 @@ input[type="radio"] {
 }
 
 .filters label:hover {
-  background: #f8b500;
   color: white;
+  background: radial-gradient(farthest-side ellipse at top left, #eb7fff, #c56bd6);
+  box-shadow:
+   0 0px 10px rgba(0,0,0,.5) inset,
+   0 2px 50px rgba(0,0,0,.5) inset,
+   0 2px 10px rgba(255,255,255,.1);
+}
+
+.activated {
+  background: radial-gradient(farthest-side ellipse at top left, #eb7fff, #c56bd6);
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2); /* Chrome y Safari */
+  -moz-transform: scale(1.2); /* Firefox */
+  -o-transform: scale(1.2); /* Opera */
+  box-shadow:
+   0 0px 10px rgba(0,0,0,.5) inset,
+   0 2px 50px rgba(0,0,0,.5) inset,
+   0 2px 10px rgba(255,255,255,.1);
+}
+label[for=All]:not(.activated) {
+background: radial-gradient(farthest-side ellipse at top left, white, #c4c2c2);
+box-shadow:
+   0 0px 10px rgba(0,0,0,.5) inset,
+   0 2px 50px rgba(0,0,0,.5) inset,
+   0 2px 10px rgba(255,255,255,.1);
+}
+label[for=All]:hover {
+  color: white;
+  background: radial-gradient(farthest-side ellipse at top left, #eb7fff, #c56bd6);
+  box-shadow:
+   0 0px 10px rgba(0,0,0,.5) inset,
+   0 2px 50px rgba(0,0,0,.5) inset,
+   0 2px 10px rgba(255,255,255,.1);
 }
 
 [value="All"]:checked ~ .filters [for="All"],
