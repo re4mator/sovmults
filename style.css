@@ -23,17 +23,18 @@
     font-display: swap;
 }
 @font-face {
-    font-family: 'Marvin';
-    src:url('./fonts/Marvin.woff') format('woff'),
-        url('./fonts/Marvin.woff2') format('woff2'),
-        url('./fonts/Marvin.svg#Marvin') format('svg'),
-        url('./fonts/Marvin.eot'),
-        url('./fonts/Marvin.eot?#iefix') format('embedded-opentype'),
-        url('./fonts/Marvin.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
+        font-family: "Xpress-BoldItalic";
+        src: url('./fonts/Xpress-BoldItalic.woff') format('woff'),
+        url('./fonts/Xpress-BoldItalic.woff2') format('woff2'),
+        url('./fonts/Xpress-BoldItalic.svg#Xpress-BoldItalic') format('svg'),
+        url('./fonts/Xpress-BoldItalic.eot'),
+        url('./fonts/Xpress-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Xpress-BoldItalic.ttf') format('truetype');
+
+                font-weight: normal;
+                font-style: normal;
+                font-display: swap;
+            }
 
 html {
   box-sizing: border-box;
@@ -913,35 +914,53 @@ text-decoration: none;
 }
 
 .dk {
-    font-family: 'Marvin';
+    font-family: 'Xpress-BoldItalic';
 	font-style: normal;
 	font-size: 1.2em;
-	color: #0310FD;
+	color: #fff;
 	text-decoration: none;
 	text-shadow:
-        -0   -1px 2px #FFFFFF,
-		 0   -1px 2px #FFFFFF,
-		-0    1px 2px #FFFFFF,
-		 0    1px 2px #FFFFFF,
-		-1px -0   2px #FFFFFF,
-		 1px -0   2px #FFFFFF,
-		-1px  0   2px #FFFFFF,
-		 1px  0   2px #FFFFFF,
-		-1px -1px 2px #FFFFFF,
-		 1px -1px 2px #FFFFFF,
-		-1px  1px 2px #FFFFFF,
-		 1px  1px 2px #FFFFFF,
-		-1px -1px 2px #FFFFFF,
-		 1px -1px 2px #FFFFFF,
-		-1px  1px 2px #FFFFFF,
-		 1px  1px 2px #FFFFFF;
+        -0   -1px 2px #0E286F,
+		 0   -1px 2px #0E286F,
+		-0    1px 2px #0E286F,
+		 0    1px 2px #0E286F,
+		-1px -0   2px #0E286F,
+		 1px -0   2px #0E286F,
+		-1px  0   2px #0E286F,
+		 1px  0   2px #0E286F,
+		-1px -1px 2px #0E286F,
+		 1px -1px 2px #0E286F,
+		-1px  1px 2px #0E286F,
+		 1px  1px 2px #0E286F,
+		-1px -1px 2px #0E286F,
+		 1px -1px 2px #0E286F,
+		-1px  1px 2px #0E286F,
+		 1px  1px 2px #0E286F;
 }
-
-.dk a:link { color: #FD3CF7; }
-.dk a:visited { color: #FD3CF7; }
-.dk a:hover { color: #0310FD; }
-.dk a:active { color: #FD3CF7; }
-
+.dk a:link { color: fff; }
+.dk a:visited { color: #fff; }
+.dk a:hover {
+color: #fff;
+text-shadow:
+        -0   -1px 2px #FD3CF7,
+		 0   -1px 2px #FD3CF7,
+		-0    1px 2px #FD3CF7,
+		 0    1px 2px #FD3CF7,
+		-1px -0   2px #FD3CF7,
+		 1px -0   2px #FD3CF7,
+		-1px  0   2px #FD3CF7,
+		 1px  0   2px #FD3CF7,
+		-1px -1px 2px #FD3CF7,
+		 1px -1px 2px #FD3CF7,
+		-1px  1px 2px #FD3CF7,
+		 1px  1px 2px #FD3CF7,
+		-1px -1px 2px #FD3CF7,
+		 1px -1px 2px #FD3CF7,
+		-1px  1px 2px #FD3CF7,
+		 1px  1px 2px #FD3CF7;
+}
+.dk a:active {
+color: #fff; }
 .dk a {
 text-decoration: none;
 }
