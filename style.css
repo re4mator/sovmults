@@ -23,6 +23,18 @@
     font-display: swap;
 }
 @font-face {
+    font-family: 'Marvin';
+    src:url('./fonts/Marvin.woff') format('woff'),
+        url('./fonts/Marvin.woff2') format('woff2'),
+        url('./fonts/Marvin.svg#Marvin') format('svg'),
+        url('./fonts/Marvin.eot'),
+        url('./fonts/Marvin.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Marvin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
         font-family: "Xpress-BoldItalic";
         src: url('./fonts/Xpress-BoldItalic.woff') format('woff'),
         url('./fonts/Xpress-BoldItalic.woff2') format('woff2'),
