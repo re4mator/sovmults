@@ -1543,7 +1543,7 @@ a.download-table:hover span:last-child {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	font-family: 'Roboto Condensed';
+	font-family: 'Oswald', sans-serif;	
 	position: relative;
 	height: 169px;	
 	width: 370px;
@@ -1590,7 +1590,7 @@ a.download-table:hover span:last-child {
 .social-panel-x h4 {
 	/*margin: 20px 0;*/
 	color: #fff;	
-	font-family: 'Roboto Condensed';	
+	font-family: 'Oswald', sans-serif;	
 	font-size: 14px;	
 	line-height: 18px;
 	text-transform: uppercase;
