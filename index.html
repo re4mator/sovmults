@@ -3841,6 +3841,90 @@
 
 </div>
 
+<!-- SOCIAL PANEL HTML -->
+<div class="social-panel-x-container">
+	<div class="social-panel-x">
+		<p>Подпишись на <i class="fa fa-heart" aria-hidden="true"></i><!-- <span id="heart"></span> -->
+			<a target="_blank" href="https://www.youtube.com/@davaikai">YouTube</a> канал</p>
+		<span class="close-btn-x"><i class="fa fa-times" aria-hidden="true"></i></span>
+		<h4 id="zzz">Амига и русская культура</h4>
+
+		<ul id="bbb">
+			<li>
+				<a href="https://vk.com/davaikai20" target="_blank">
+					<img src="./img/sp/vkontakte.png" alt="vk">
+				</a>
+			</li>
+			<li>
+				<a class="paper-plane" href="https://t.me/davaikai_oficial" target="_blank">
+					<img src="./img/sp/telegram.png" alt="telegram">
+				</a>
+			</li>
+			<li>
+				<a onmouseover="changeItem()" onmouseout="rechangeItem()" class="sp-anim-area" style="border:none;box-shadow: none;" href="https://www.youtube.com/@davaikai" target="_blank">
+
+<script>
+function changeItem() {
+  document.getElementById("bbb").style.opacity = "0";
+}
+// меняем стиль при наведении
+function rechangeItem() {
+  document.getElementById("bbb").style.opacity = "1";
+}
+// возвращаем стиль при снятии наведения
+</script>
+
+				<span class="smoke-container">
+      <svg width="80px" height="73px" viewbox="0 0 31 73">
+        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+          <g class="smokes" transform="translate(2.000000, 2.000000)" stroke="#BEBEBE" stroke-width="5">
+            <g class="smoke-1">
+              <path id="Shape1" d="M0.5,8.8817842e-16 C0.5,8.8817842e-16 3.5,5.875 3.5,11.75 C3.5,17.625 0.5,17.625 0.5,23.5 C0.5,29.375 3.5,29.375 3.5,35.25 C3.5,41.125 0.5,41.125 0.5,47"></path>
+            </g>
+            <g class="smoke-2">
+              <path id="Shape2" d="M0.5,8.8817842e-16 C0.5,8.8817842e-16 3.5,5.875 3.5,11.75 C3.5,17.625 0.5,17.625 0.5,23.5 C0.5,29.375 3.5,29.375 3.5,35.25 C3.5,41.125 0.5,41.125 0.5,47"></path>
+            </g>
+            <g class="smoke-3">
+              <path id="Shape3" d="M0.5,8.8817842e-16 C0.5,8.8817842e-16 3.5,5.875 3.5,11.75 C3.5,17.625 0.5,17.625 0.5,23.5 C0.5,29.375 3.5,29.375 3.5,35.25 C3.5,41.125 0.5,41.125 0.5,47"></path>
+            </g>
+          </g>
+        </g>
+      </svg>
+				</span>
+				
+				</a>
+			</li>
+			<li>
+				<a href="https://www.instagram.com/kayla.pine/" target="_blank">
+					<img src="./img/sp/instagram.png" alt="instagram">
+				</a>
+			</li>
+			<li>
+				<a href="https://dzen.ru/id/622d02197059ce06c6d44068" target="_blank">
+					<img src="./img/sp/yandex-zen.png" alt="yandex-zen">
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<button class="floating-btn-x">
+	<span class="dk-button">DAVAIKAI</span>
+</button>
+<script>
+// SOCIAL PANEL JS
+const floating_btn = document.querySelector('.floating-btn-x');
+const close_btn = document.querySelector('.close-btn-x');
+const social_panel_container = document.querySelector('.social-panel-x-container');
+
+floating_btn.addEventListener('click', () => {
+	social_panel_container.classList.toggle('visible')
+});
+
+close_btn.addEventListener('click', () => {
+	social_panel_container.classList.remove('visible')
+});
+</script>
+
 <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
 
 <script src="tablesearch.js"></script>
