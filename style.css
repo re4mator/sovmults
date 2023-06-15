@@ -1527,6 +1527,7 @@ a.download-table:hover span:last-child {
 	bottom: 80px;
 	transform: translateX(100%);
 	transition: transform 0.4s ease-in-out;
+	z-index: 100000;
 }
 .social-panel-x-container.visible {
 	transform: translateX(-10px);
@@ -1857,4 +1858,8 @@ i.fa.fa-heart {
   {
     transform: scale( .75 );
   }
+}
+
+.jq-elevator.align-bottom {
+    bottom: 100px !important;
 }
