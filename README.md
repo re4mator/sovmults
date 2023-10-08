@@ -10,9 +10,8 @@
 - [All channels link](https://github.com/Fazzani/grab/blob/master/merge.tar.gz?raw=true)
 - [Missed channels list](out/missed_channels.md)
 
-
 |Лого|Канал|Поток|Статус|
-|:----|:---:|:---:|
+|:----|:---:|:---:|:---:|
 |<img src="https://i.ibb.co/vjh7bK3/2x2.png" width="100" height="100">|2x2|http://bl.uma.media/live/317805/HLS/4614144_2,2883584/2/1/playlist.m3u8|<img src="https://i.ibb.co/C8m56df/icon-yes.png" width="32" height="32">
 |<img src="https://i.ibb.co/YZLJknW/vgus.png" width="100" height="100">|В ГОСТЯХ У СКАЗКИ |https://ucdn.beetv.kz/btv/live/hls/000002762.m3u8|<img src="https://i.ibb.co/C8m56df/icon-yes.png" width="32" height="32">
 |<img src="https://i.ibb.co/Mn8y6rG/dm.png" width="100" height="100">|ДЕТСКИЙ МИР |https://ucdn.beetv.kz/btv/live/hls/000000049.m3u8|<img src="https://i.ibb.co/C8m56df/icon-yes.png" width="32" height="32">
